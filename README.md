@@ -1,10 +1,6 @@
 # Lyft
+Para completar este reto,
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
-
-***
 
 Para completar este reto, hemos creado este repositorio boilerplate (plantilla
 inicial) con todos los recursos que necesitas. Esto incluye imágenes y
