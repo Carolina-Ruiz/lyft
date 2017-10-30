@@ -2,100 +2,149 @@
 	margin: 0;
 	padding: 0;
 }
- header {
- 	height: 1166px;
- 	width: 1285px;
+
+body { 
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+ 	height: 533px;
+ 	width: 1286px;
 }
 
 .bprincipal {
 	background-image: url('../assets/images/hero.gif');
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 650px
     width: 100%;
-    height: 650px;
 }
+
 #logo img {
 	max-width: 50px; /*determina el tamaño de las imagenes*/
 }
 	
-header ul li {   
-	float: left;
-	padding: 45px; 
-	list-style-type: none; 
+ul {  
+	color: white;
+	list-style: none; 
+	padding: 45px;
 	position: fixed;
 }
-.turn {
+
+li {
+	display: inline-block;
+	text-align: center;
+	width: 100px;
+}
+.menu {
+	float: right; 
+}
+
+#bturn {
 	background-color: white;
 	float: right;
-	margin-top: 196px;
 	height: 417px;
+	margin-top: 196px;
 	width: 535px;
-
 }
-.lmorada {
+
+.tmorado {
 	color: purple;
 }
-.bfono {
-	width: 1284px;
-	height: 862px;
+
+main {
+	height: 2043px;
+	width: 1286px;
+}
+.buno {
+	width: 1286px;
+	height: 633px;
 	background: linear-gradient(#76278F, #2B1E66);
 	display: inline-block;
 }
 
 .texto {
 	width: 457px;
-	margin: 0 0 0 0;
-
+	margin: 89px 150px 0 163px;
+	color: white;
 }
 
- .phone img{
+.phone img{
  	width: 348px;
+	float: left;  /*cunado hay float se condiciona con margin*/
+	margin-top: -339px;
+	margin-left: 798px;
+}
+.bdos {
+	height: 482px;
+	width: 1286px;
+}
+
+.tdos {
 	float: left;
-	margin-top: -234px;
-	margin-left: 436px;
-	
-}
-
-.uno {
-	height: 485px;
-	width: 1285px;
-}
-
-.driven {
 	height: 487px;
 	width: 431px;
 }
 
-.dos {
-	height: 481px;
-	width: 1286px;
+iframe {
+	float: right;
+	margin-top: -459px;
 }
+
+.btres {
+	height: 482px;
+	width: 1268px;
+}
+
 .riding {
 	height: 485px;
 	width: 429px;
 }
 
-.tres {
+.bcuatro {
 	height: 447px;
 	width: 1276px;
+}
+.learn {
+	height: 487px;
+	width: 431px;
 }
 
 footer {
 	background-color: #2F3E52;
-	height: 30px;
+	height: 649px;
 	width: 100%;
 }
 
-footer {
-	height: 648px;
-	width: 1286px;
-}
-
 .imagenes{
-
+	float: right;
+	height: 344px;
+	width: 162px;
 }
 
-.fotouno img, {
+.cuno {
+	height: 290px;
+	width: 150px;
+}
+
+.cdos {
+	height: 290px;
+	width: 150px;
+}
+
+.ctres {
+	height: 290px;
+	width: 150px;
+}
+
+.fotouno img, .fotodos img, .fototres img {
 	height: 135px;
 	width: 40px;
+}
+
+.fin {
+	height:103px; 
+	width:647px;
+	top: 0;
+	bottom: 0;
 }
